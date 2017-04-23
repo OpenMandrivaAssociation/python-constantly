@@ -7,7 +7,9 @@ Group:		Development/Python
 Url:		https://pypi.org/project/constantly/
 Source0:	https://files.pythonhosted.org/packages/95/f1/207a0a478c4bb34b1b49d5915e2db574cadc415c9ac3a7ef17e29b2e8951/constantly-%{version}.tar.gz
 BuildRequires:	pkgconfig(python3)
+BuildRequires:	python-setuptools
 BuildRequires:	pkgconfig(python)
+BuildRequires:	python2-setuptools
 BuildArch:	noarch
 
 %description
