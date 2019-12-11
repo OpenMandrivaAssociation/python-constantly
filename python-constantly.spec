@@ -1,7 +1,7 @@
 Summary:	Python library for symbolic constants
 Name:		python-constantly
 Version:	15.1.0
-Release:	4
+Release:	5
 License:	MIT
 Group:		Development/Python
 Url:		https://pypi.org/project/constantly/
