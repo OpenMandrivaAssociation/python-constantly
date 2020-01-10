@@ -24,7 +24,7 @@ Python 2.x library for symbolic constants
 
 %prep
 %setup -qn constantly-%{version}
-%apply_patches
+%autopatch -p1
 
 mkdir python2
 mv `ls |grep -v python2` python2
