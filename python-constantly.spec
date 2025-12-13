@@ -8,6 +8,7 @@ Url:		https://pypi.org/project/constantly/
 Source0:	https://files.pythonhosted.org/packages/source/c/constantly/constantly-%{version}.tar.gz
 BuildSystem:	python
 BuildArch:	noarch
+BuildRequires:	python%{pyver}dist(setuptools)
 BuildRequires:	python%{pyver}dist(versioneer)
 # Removed after 6.0
 Obsoletes:	python2-constantly < %{EVRD}
